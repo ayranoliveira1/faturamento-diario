@@ -56,5 +56,7 @@ fs.readFile("faturamento.json", "utf8", (error, data) => {
    console.log(
       `Maior valor de faturamento no mês: ${resultado.maiorValor.toFixed(2)}`
    );
-   console.log(`Dias com faturamento no mês: ${resultado.diasAcimaDaMedia}`);
+   console.log(
+      `Dias com faturamento acima da média: ${resultado.diasAcimaDaMedia}`
+   );
 });
